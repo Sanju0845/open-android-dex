@@ -15,8 +15,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
+    "dev": "node init && vite",
+    "build": "node init && tsc && vite build",
     "apk": "node scripts/build-launcher-apk.mjs",
     "preview": "vite preview",
     "tauri": "tauri"
