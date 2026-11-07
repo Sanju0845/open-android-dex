@@ -16,7 +16,6 @@ openandroiddex-remote/target/
 
 # IDE, per-machine
 .idea/
-.vscode/
 
 # macOS Finder metadata, written into every directory a Finder window opens.
 .DS_Store
@@ -76,3 +75,5 @@ local.properties
 *.keystore
 
 .hero-tmp/
+config.bat
+node_modules
